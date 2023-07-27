@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at left bottom, #ffffff, #fff200);
+  background-size: cover; /* Set the background to cover the entire body */
+  font-family: "Futura", sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #181a1b;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 7px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 7px solid #fff300;
+}
+
+.topnav a.active {
+  border-bottom: 7px solid #fff300;
+}
+
+
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 1%;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
